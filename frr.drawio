@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T11:31:10.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="adVAbTtRUqdYYz1m1hSV" version="16.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-03T11:37:24.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oPYO7xqtwZIqVAsqnVds" version="16.6.5" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
-    <mxGraphModel dx="34931" dy="16047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="22841" dy="9777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,6 +120,9 @@
           <mxGeometry x="8510" y="1770" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-33" target="4pqjHKZEjBiw4mUvzdSv-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNdpF2EG6xUiBvgfCBu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=50;fontColor=default;strokeWidth=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-33" target="ddNdpF2EG6xUiBvgfCBu-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-33" value="zfpm_write_cb" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -715,6 +718,9 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-211" value="nl_batch_send" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5367" y="3443" width="320" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ddNdpF2EG6xUiBvgfCBu-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=50;fontColor=default;strokeWidth=10;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-212" target="YY-aQJTgw0uuCBBaZWPI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-212" value="netlink_send_msg" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="5367" y="3563" width="320" height="60" as="geometry" />
         </mxCell>
@@ -839,13 +845,13 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-251" value="&lt;div style=&quot;line-height: 24px; font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 24px; font-size: 18px;&quot;&gt;&lt;div style=&quot;line-height: 24px; font-size: 18px;&quot;&gt;thread_add_write(zclient-&amp;gt;master, zclient_flush_data&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="4322.5" y="-919" width="630" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-374" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=18;strokeWidth=5;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-252" target="4pqjHKZEjBiw4mUvzdSv-338">
+        <mxCell id="4pqjHKZEjBiw4mUvzdSv-374" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=18;strokeWidth=10;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-252" target="4pqjHKZEjBiw4mUvzdSv-338">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-252" value="&lt;div style=&quot;line-height: 24px; font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left; line-height: 24px; font-size: 18px;&quot;&gt;&lt;div style=&quot;line-height: 24px; font-size: 18px;&quot;&gt;zclient_flush_data&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="4487.5" y="-799" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-373" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=18;strokeWidth=5;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-253" target="4pqjHKZEjBiw4mUvzdSv-339">
+        <mxCell id="4pqjHKZEjBiw4mUvzdSv-373" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=18;strokeWidth=10;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-253" target="4pqjHKZEjBiw4mUvzdSv-339">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="4108" y="-220" />
@@ -1260,6 +1266,15 @@
         </mxCell>
         <mxCell id="YY-aQJTgw0uuCBBaZWPI-7" value="&lt;font style=&quot;font-size: 200px&quot;&gt;&lt;b style=&quot;font-size: 200px&quot;&gt;Kernel&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=200;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2970" y="4580" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNdpF2EG6xUiBvgfCBu-3" value="netlink_route_info_encode" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="8314" y="2470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNdpF2EG6xUiBvgfCBu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=50;fontColor=default;strokeWidth=10;curved=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ddNdpF2EG6xUiBvgfCBu-5" target="4pqjHKZEjBiw4mUvzdSv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNdpF2EG6xUiBvgfCBu-5" value="write(zfpm_g-&amp;gt;sock, stream_pnt(s), bytes_to_write);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="9021" y="2350" width="490" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1849,7 +1864,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5oMKjCcuSsL6Nf4p9-Xt" name="zebra 与 kernel 交互">
-    <mxGraphModel dx="5684" dy="-248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6490" dy="170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hHAXwAeEBZHe9JdwjwRp-0" />
         <mxCell id="hHAXwAeEBZHe9JdwjwRp-1" parent="hHAXwAeEBZHe9JdwjwRp-0" />
