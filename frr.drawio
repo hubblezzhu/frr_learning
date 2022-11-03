@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T11:30:53.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lR5kdlNKRfQE_d74oVWc" version="16.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-03T11:31:10.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="adVAbTtRUqdYYz1m1hSV" version="16.6.5" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
     <mxGraphModel dx="34931" dy="16047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1254,6 +1254,12 @@
             <mxPoint x="-470" y="5150" as="sourcePoint" />
             <mxPoint x="-520" y="-3300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YY-aQJTgw0uuCBBaZWPI-6" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="4410" width="5859.5" height="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="YY-aQJTgw0uuCBBaZWPI-7" value="&lt;font style=&quot;font-size: 200px&quot;&gt;&lt;b style=&quot;font-size: 200px&quot;&gt;Kernel&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=200;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="4580" width="700" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
