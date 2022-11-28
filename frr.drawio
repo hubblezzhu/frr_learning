@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T11:54:26.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fDwHtO9H5DyAfFpaMVt0" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:16:15.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HDVvDc8xAm9gHwIv0Ms6" version="20.6.0" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
-    <mxGraphModel dx="12234" dy="4208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="14211" dy="5144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-44" target="4pqjHKZEjBiw4mUvzdSv-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-44" value="hook_register(rib_update, zfpm_trigger_update);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="4pqjHKZEjBiw4mUvzdSv-44" value="hook_register(rib_update, zfpm_trigger_update);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="9100" y="1490" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-46" target="4pqjHKZEjBiw4mUvzdSv-29" edge="1">
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-59" value="meta_queue_process" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8300" y="420" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-60" target="ddNdpF2EG6xUiBvgfCBu-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-60" value="zfpm_netlink_encode_route" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8314" y="2340" width="230" height="60" as="geometry" />
@@ -1581,6 +1584,21 @@
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-79" value="&lt;font color=&quot;#ff3333&quot;&gt;hook_call(rib_update, rn, &quot;uninstalling from kernel&quot;);&lt;/font&gt;" style="rounded=0;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="8300" y="1280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-87" value="FPM_NH_ENCAP_NONE" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8530" y="2572" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-88" value="FPM_NH_ENCAP_MAX" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8530" y="2812" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-89" value="FPM_NH_ENCAP_VXLAN" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8530" y="2692" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-90" value="FPM_NH_ENCAP_SRV6_LOCAL_SID" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8530" y="2752" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-91" value="FPM_NH_ENCAP_SRV6_SERVICE_SID" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="8530" y="2632" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
