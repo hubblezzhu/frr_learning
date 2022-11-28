@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T09:07:37.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BrgyXF-nWgmO5FD3XV0i" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-28T09:23:05.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mFeW2VMSE6ZuNHPecA3j" version="20.6.0" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
-    <mxGraphModel dx="13346" dy="4875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12135" dy="4162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1371,22 +1371,95 @@
           <mxGeometry x="9980" y="3130" width="230" height="63" as="geometry" />
         </mxCell>
         <mxCell id="K4-QPWPVnin5k7dVcwIn-1" value="&lt;font style=&quot;font-size: 50px&quot;&gt;&lt;b style=&quot;font-size: 50px&quot;&gt;dplane_fpm_nl&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=50;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="11700" y="2190" width="990" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="K4-QPWPVnin5k7dVcwIn-2" value="rib_delete" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="12110" y="2338" width="230" height="60" as="geometry" />
+          <mxGeometry x="11650" y="2015" width="990" height="90" as="geometry" />
         </mxCell>
         <mxCell id="K4-QPWPVnin5k7dVcwIn-3" value="&lt;h1&gt;FRR_MODULE_SETUP(&lt;/h1&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;h1&gt;.name = &quot;dplane_fpm_nl&quot;,&lt;/h1&gt;&lt;h1&gt;.version = &quot;0.0.1&quot;,&lt;/h1&gt;&lt;h1&gt;.description = &quot;Data plane plugin for FPM using netlink.&quot;,&lt;/h1&gt;&lt;h1&gt;.init = fpm_nl_init,&lt;/h1&gt;&lt;/blockquote&gt;&lt;h1&gt;);&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Lucida Console;" parent="1" vertex="1">
-          <mxGeometry x="12490" y="2210" width="936" height="280" as="geometry" />
+          <mxGeometry x="12440" y="2035" width="936" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-1" target="IdodwtUOvVso05sxJxc_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-1" target="IdodwtUOvVso05sxJxc_-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="11715" y="2650" />
+              <mxPoint x="11815" y="2650" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-1" value="main" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="11920" y="2510" width="230" height="60" as="geometry" />
+          <mxGeometry x="11600" y="2450" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-2" value="ZEBRA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="11690" y="2510" width="230" height="60" as="geometry" />
+          <mxGeometry x="11370" y="2450" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-3" target="IdodwtUOvVso05sxJxc_-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-3" value="frr_config_fork" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="11920" y="2660" width="230" height="60" as="geometry" />
+          <mxGeometry x="11490" y="2740" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;strokeWidth=7;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-4" target="IdodwtUOvVso05sxJxc_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-4" value="hook_call(frr_late_init, master);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="11490" y="2880" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-7" target="IdodwtUOvVso05sxJxc_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-7" value="fpm_nl_init" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12974" y="2470" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-8" target="IdodwtUOvVso05sxJxc_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13098.999999999996" y="2795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-8" value="hook_register(frr_late_init, fpm_nl_new);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12974" y="2617" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-10" target="IdodwtUOvVso05sxJxc_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-10" value="fpm_nl_new" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12974" y="2795" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-12" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;rv = dplane_provider_register(prov_name, DPLANE_PRIO_POSTPROCESS,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; DPLANE_PROV_FLAG_THREADED, fpm_nl_start,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; fpm_nl_process, fpm_nl_finish, gfnc,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;				&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;amp;prov);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="12830" y="2997" width="518" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-14" value="fpm_nl_start" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="13110" y="3350" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-16" value="&lt;span style=&quot;text-align: left;&quot;&gt;fpm_nl_process&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="13559" y="3350" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-17" target="IdodwtUOvVso05sxJxc_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-17" value="zebra_dplane_start" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="11700" y="3150" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-19" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;while (prov) {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;if (prov-&amp;gt;dp_start)&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;(prov-&amp;gt;dp_start)(prov);&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/* Locate next provider */&lt;/div&gt;&lt;div&gt;DPLANE_LOCK();&lt;/div&gt;&lt;div&gt;prov = TAILQ_NEXT(prov, dp_prov_link);&lt;/div&gt;&lt;div&gt;DPLANE_UNLOCK();&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="11650" y="3333" width="430" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;fpm_nl_finish&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="13310" y="3240" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-23" value="zebra_dplane_finish" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12100" y="2450" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-24" value="dplane_check_shutdown_status" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12090" y="2600" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-25" value="zebra_finalize" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12090" y="2740" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-27" value="zebra_dplane_shutdown" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="12090" y="2947" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-28" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;TAILQ_FOREACH(dp, &amp;amp;zdplane_info.dg_providers_q, dp_prov_link) {&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;if (dp-&amp;gt;dp_fini == NULL)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;continue;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;dp-&amp;gt;dp_fini(dp, false);&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;align=left;" vertex="1" parent="1">
+          <mxGeometry x="12170" y="3170" width="430" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
