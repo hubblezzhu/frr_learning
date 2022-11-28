@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T09:57:01.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gq2zGQv2CmH3ASTCyHJ6" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-28T11:54:26.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fDwHtO9H5DyAfFpaMVt0" version="20.6.0" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
-    <mxGraphModel dx="13717" dy="4910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12234" dy="4208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,14 +160,14 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-46" target="4pqjHKZEjBiw4mUvzdSv-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-46" value="hook_register(rib_update, zfpm_trigger_update);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="4pqjHKZEjBiw4mUvzdSv-46" value="&lt;font color=&quot;#ff3333&quot;&gt;hook_register(rib_update, zfpm_trigger_update);&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8300" y="1490" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-48" target="4pqjHKZEjBiw4mUvzdSv-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-48" value="rib_update" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="8300" y="1200" width="230" height="60" as="geometry" />
+          <mxGeometry x="8300" y="1375" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-50" target="4pqjHKZEjBiw4mUvzdSv-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -573,38 +573,20 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-172" value="zebra main thread" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=18;fontStyle=1;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="7061" y="565" width="285" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-173" target="4pqjHKZEjBiw4mUvzdSv-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="8135" y="1070" />
-              <mxPoint x="8415" y="1070" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="IdodwtUOvVso05sxJxc_-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-173" target="4pqjHKZEjBiw4mUvzdSv-181">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-173" value="rib_process_update_fib" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8020" y="976" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-174" target="4pqjHKZEjBiw4mUvzdSv-48" edge="1">
+        <mxCell id="IdodwtUOvVso05sxJxc_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-174" target="4pqjHKZEjBiw4mUvzdSv-181">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Lucida Console;fontSize=18;curved=1;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-174" target="4pqjHKZEjBiw4mUvzdSv-181" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="8415" y="1120" />
-              <mxPoint x="7960" y="1120" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-174" value="rib_process_add_fib" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8300" y="976" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4pqjHKZEjBiw4mUvzdSv-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-175" target="4pqjHKZEjBiw4mUvzdSv-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="8725" y="1070" />
-              <mxPoint x="8415" y="1070" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="IdodwtUOvVso05sxJxc_-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-175" target="IdodwtUOvVso05sxJxc_-78">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-175" value="rib_process_del_fib" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="8610" y="975" width="230" height="60" as="geometry" />
@@ -612,8 +594,11 @@
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-181" target="4pqjHKZEjBiw4mUvzdSv-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="4pqjHKZEjBiw4mUvzdSv-181" target="IdodwtUOvVso05sxJxc_-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-181" value="rib_install_kernel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="7800" y="1300" width="320" height="60" as="geometry" />
+          <mxGeometry x="8030" y="1160" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4pqjHKZEjBiw4mUvzdSv-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1" source="4pqjHKZEjBiw4mUvzdSv-183" target="4pqjHKZEjBiw4mUvzdSv-185" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1584,6 +1569,18 @@
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;bwritten = write(fnc-&amp;gt;socket, stream_pnt(fnc-&amp;gt;obuf), btotal);&lt;br&gt;&lt;/div&gt;" style="rounded=0;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="13161" y="5670" width="348" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-78" target="IdodwtUOvVso05sxJxc_-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-78" value="rib_uninstall_kernel" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="8510" y="1160" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;endArrow=classic;endFill=1;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-79" target="4pqjHKZEjBiw4mUvzdSv-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-79" value="&lt;font color=&quot;#ff3333&quot;&gt;hook_call(rib_update, rn, &quot;uninstalling from kernel&quot;);&lt;/font&gt;" style="rounded=0;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="8300" y="1280" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
