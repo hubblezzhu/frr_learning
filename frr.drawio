@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T09:23:05.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mFeW2VMSE6ZuNHPecA3j" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-28T09:26:08.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LUkYUuoBe9CXyFNh-Pdy" version="20.6.0" type="github" pages="3">
   <diagram id="n1oC5si7nnEUVdJJnkk2" name="frr主流程">
-    <mxGraphModel dx="12135" dy="4162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12481" dy="4325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1446,14 +1446,26 @@
         <mxCell id="IdodwtUOvVso05sxJxc_-22" value="&lt;span style=&quot;text-align: left;&quot;&gt;fpm_nl_finish&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="13310" y="3240" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-23" target="IdodwtUOvVso05sxJxc_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-23" value="zebra_dplane_finish" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="12100" y="2450" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-24" target="IdodwtUOvVso05sxJxc_-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-24" value="dplane_check_shutdown_status" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="12090" y="2600" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-25" target="IdodwtUOvVso05sxJxc_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-25" value="zebra_finalize" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="12090" y="2740" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IdodwtUOvVso05sxJxc_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontColor=#FF3333;" edge="1" parent="1" source="IdodwtUOvVso05sxJxc_-27" target="IdodwtUOvVso05sxJxc_-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IdodwtUOvVso05sxJxc_-27" value="zebra_dplane_shutdown" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="12090" y="2947" width="230" height="60" as="geometry" />
