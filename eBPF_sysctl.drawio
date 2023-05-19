@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T09:23:29.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="HU-mHX8iOMlufqE9GHSs" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T09:52:37.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="S2g9DkAkkaLWMFT9I7io" version="21.2.9" type="github">
   <diagram name="第 1 页" id="UhOqMrJpVa5OOBqp4UN_">
     <mxGraphModel dx="2594" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,9 @@
         </mxCell>
         <mxCell id="S9WwIThJoDWI54Gwqipy-6" value="BPF_CGROUP_RUN_PROG_SYSCTL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="840" y="620" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S9WwIThJoDWI54Gwqipy-7" target="9XG2BIqTgFoNW4vE4yJE-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S9WwIThJoDWI54Gwqipy-7" value="table-&amp;gt;proc_handler" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="1301" y="620" width="330" height="60" as="geometry" />
@@ -114,23 +117,32 @@
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-8" value="proc_sys_root-&amp;gt;proc_dir_ops = &amp;amp;proc_sys_dir_file_operations;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="500" y="-330" width="310" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-18" target="9XG2BIqTgFoNW4vE4yJE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-18" value="sysctl_ipv4_init" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="60" width="200" height="60" as="geometry" />
+          <mxGeometry x="1800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-19" target="9XG2BIqTgFoNW4vE4yJE-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-19" value="register_net_sysctl" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="170" width="200" height="60" as="geometry" />
+          <mxGeometry x="1800" y="140" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-20" value="__register_sysctl_table" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="1800" y="270" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-21" value="&lt;div&gt;{&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.procname&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;= &quot;tcp_mem&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.maxlen&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= sizeof(sysctl_tcp_mem),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.data&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= &amp;amp;sysctl_tcp_mem,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.mode&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= 0644,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.proc_handler&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;= proc_doulongvec_minmax,&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;align=left;arcSize=6;" vertex="1" parent="1">
-          <mxGeometry x="2091" y="140" width="390" height="160" as="geometry" />
+          <mxGeometry x="2080" y="110" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-22" target="9XG2BIqTgFoNW4vE4yJE-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-22" value="struct proto tcp_prot" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="2590" y="10" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-23" value=".sysctl_mem		= sysctl_tcp_mem," style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="100" width="320" height="60" as="geometry" />
+          <mxGeometry x="2740" y="110" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-24" target="9XG2BIqTgFoNW4vE4yJE-25">
           <mxGeometry relative="1" as="geometry" />
@@ -138,7 +150,7 @@
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-24" value="sk_prot_mem_limits" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="2600" y="790" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9XG2BIqTgFoNW4vE4yJE-25" value="READ_ONCE(sk-&amp;gt;sk_prot-&amp;gt;sysctl_mem[index]);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-25" value="READ_ONCE(sk-&amp;gt;sk_prot-&amp;gt;sysctl_mem[index]);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2600" y="920" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-26" target="9XG2BIqTgFoNW4vE4yJE-27">
@@ -164,6 +176,12 @@
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-29" value="sk_prot_mem_limits(sk, 2)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="3000" y="670" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-35" value="memcpy" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="460" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-36" value="WRITE_ONCE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1301" y="750" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
