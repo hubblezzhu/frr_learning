@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T09:15:02.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1BOXzjJlcl80_UIRATh3" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T09:23:29.780Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="HU-mHX8iOMlufqE9GHSs" version="21.2.9" type="github">
   <diagram name="第 1 页" id="UhOqMrJpVa5OOBqp4UN_">
     <mxGraphModel dx="2594" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,6 +125,45 @@
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-21" value="&lt;div&gt;{&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.procname&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;= &quot;tcp_mem&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.maxlen&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= sizeof(sysctl_tcp_mem),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.data&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= &amp;amp;sysctl_tcp_mem,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.mode&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;= 0644,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;.proc_handler&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;= proc_doulongvec_minmax,&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;align=left;arcSize=6;" vertex="1" parent="1">
           <mxGeometry x="2091" y="140" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-22" value="struct proto tcp_prot" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="10" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-23" value=".sysctl_mem		= sysctl_tcp_mem," style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="100" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-24" target="9XG2BIqTgFoNW4vE4yJE-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-24" value="sk_prot_mem_limits" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="790" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-25" value="READ_ONCE(sk-&amp;gt;sk_prot-&amp;gt;sysctl_mem[index]);" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="920" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-26" target="9XG2BIqTgFoNW4vE4yJE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-26" value="__sk_mem_raise_allocated" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="420" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-27" target="9XG2BIqTgFoNW4vE4yJE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-27" value="sk_prot_mem_limits(sk, 0)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="510" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-28" target="9XG2BIqTgFoNW4vE4yJE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-28" value="sk_prot_mem_limits(sk, 1)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="590" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9XG2BIqTgFoNW4vE4yJE-29" target="9XG2BIqTgFoNW4vE4yJE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-29" value="sk_prot_mem_limits(sk, 2)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="670" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
