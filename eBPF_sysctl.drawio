@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T09:53:13.404Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="068kDRjihvBf1yzkalNX" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T00:44:31.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ghhIQrAqbtbMQSyiQ9zF" version="21.2.9" type="github">
   <diagram name="第 1 页" id="UhOqMrJpVa5OOBqp4UN_">
-    <mxGraphModel dx="2594" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1799" dy="1828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -182,6 +182,18 @@
         </mxCell>
         <mxCell id="9XG2BIqTgFoNW4vE4yJE-36" value="WRITE_ONCE" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1301" y="750" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-41" value="tcp_clamp_window" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="390" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-42" value="sk_prot_mem_limits(sk, 0)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3640" y="500" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-43" value="tcp_prune_queue" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="310" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9XG2BIqTgFoNW4vE4yJE-44" value="tcp_try_rmem_schedule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="230" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
