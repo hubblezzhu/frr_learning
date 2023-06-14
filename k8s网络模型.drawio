@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T06:12:47.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VAdZB3dQF_LFQvh7IBOB" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T06:14:56.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aMeEhW8GFkrPEtrfhmnr" version="21.3.2" type="github">
   <diagram name="第 1 页" id="vNLDc5i9Rt-sk_Q8lJ6u">
-    <mxGraphModel dx="952" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="639" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,7 +232,7 @@
             <mxPoint x="1251.5" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4B59_CVPUAiN3qROytd-88" value="&lt;font face=&quot;Verdana&quot;&gt;physical layer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="w4B59_CVPUAiN3qROytd-88" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 15px;&quot;&gt;physical layer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="120" y="560" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
