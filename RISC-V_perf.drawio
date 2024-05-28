@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T02:32:17.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RxgEHW3gnCmGY_uYXjcr" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T02:46:03.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jtmaGdD_UfGTVN17Dgg_" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Fk42mJiVpBC5FdkMqB4c">
     <mxGraphModel dx="5928" dy="2120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -407,8 +407,8 @@
         <mxCell id="sKh36gBYf5P6FvpSKb69-16" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=25;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4768" y="1334" width="509" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="sKh36gBYf5P6FvpSKb69-17" value="PMU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="4588" y="1399" width="150" height="50" as="geometry" />
+        <mxCell id="sKh36gBYf5P6FvpSKb69-17" value="PMU&lt;div&gt;（performance monitor unit）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="4360" y="1384" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sKh36gBYf5P6FvpSKb69-19" value="perf_event_open" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;fontSize=25;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="4627" y="980" width="290" height="90" as="geometry" />
@@ -490,6 +490,9 @@
         </mxCell>
         <mxCell id="sKh36gBYf5P6FvpSKb69-47" value="perf" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="4643" y="2210" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sKh36gBYf5P6FvpSKb69-49" value="PMC&lt;div&gt;（performance monitor counter）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="5210" y="1390" width="390" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
